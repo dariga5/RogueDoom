@@ -3,25 +3,38 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 5f;   // скорость движения, видна в Инспекторе
-    private Rigidbody2D rb;    // сюда сохраним наш Rigidbody2D
+    private float speed = 5f;   
+    
+    private Rigidbody2D rb;    
+    private Vector2 moveDirection;
+    private Animator animator;
 
+    private float moveX = 0;
+    private float moveY = 0;
+    
     void Start()
     {
-        // Находим компонент Rigidbody2D на этом же объекте и запоминаем
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        // Каждый кадр спрашиваем: какие клавиши нажаты?
-        float moveX = Input.GetAxisRaw("Horizontal"); // -1 (влево), 0, 1 (вправо)
-        float moveY = Input.GetAxisRaw("Vertical");   // -1 (вниз), 0, 1 (вверх)
+        moveX = Input.GetAxisRaw("Horizontal"); // -1 (влево), 0, 1 (вправо)
+        moveY = Input.GetAxisRaw("Vertical");   // -1 (вниз), 0, 1 (вверх)
+        
+        if(moveX == 1)
+        {
+            animator.SetBool("IsRunningRigth", true);        
+        } else
+        {
+            animator.SetBool("IsRunningRigth", false);  
+        }
+         
 
-        // Создаём вектор (направление) движения
-        Vector2 moveDirection = new Vector2(moveX, moveY);
+        moveDirection = new Vector2(moveX, moveY);
 
-        // Двигаем физическое тело (Rigidbody2D) с учётом скорости
         rb.linearVelocity = moveDirection * speed;
+
     }
 }
