@@ -2,39 +2,31 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    [SerializeField]
-    private float speed = 5f;   
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private HeroState state;
     
-    private Rigidbody2D rb;    
-    private Vector2 moveDirection;
-    private Animator animator;
+    private Rigidbody2D rb;
+    private Vector2 input;
 
-    private float moveX = 0;
-    private float moveY = 0;
     
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+
+        if (state == null) 
+            state = GetComponent<HeroState>();
     }
 
     void Update()
     {
-        moveX = Input.GetAxisRaw("Horizontal"); // -1 (влево), 0, 1 (вправо)
-        moveY = Input.GetAxisRaw("Vertical");   // -1 (вниз), 0, 1 (вверх)
-        
-        if(moveX == 1)
-        {
-            animator.SetBool("IsRunningRigth", true);        
-        } else
-        {
-            animator.SetBool("IsRunningRigth", false);  
-        }
-         
+        input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
-        moveDirection = new Vector2(moveX, moveY);
+        state.Direction = input;
+        state.OnDirectionChanged?.Invoke(input);
+    }
 
-        rb.linearVelocity = moveDirection * speed;
-
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + input * speed * Time.fixedDeltaTime);
     }
 }

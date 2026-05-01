@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 48b8abb97cc6a2181b1ac892e9ab300d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 737790307838093938
+    second: ROUMER-run_0
+  - first:
+      213: -8154469914044507717
+    second: ROUMER-run_1
+  - first:
+      213: -5909020709970129640
+    second: ROUMER-run_2
+  - first:
+      213: -9210870698060579569
+    second: ROUMER-run_3
+  - first:
+      213: 6283731109002765472
+    second: ROUMER-run_4
+  - first:
+      213: 5237373422789255308
+    second: ROUMER-run_5
+  - first:
+      213: 6007275194868201784
+    second: ROUMER-run_6
+  - first:
+      213: -3564614370295252034
+    second: ROUMER-run_7
+  - first:
+      213: -5763172653178740517
+    second: ROUMER-run_8
+  - first:
+      213: 7851919524699858679
+    second: ROUMER-run_9
+  - first:
+      213: -5929546233812808081
+    second: ROUMER-run_10
+  - first:
+      213: 7500309443479768439
+    second: ROUMER-run_11
+  - first:
+      213: -4309633184513456348
+    second: ROUMER-run_12
+  - first:
+      213: -7544409938406826441
+    second: ROUMER-run_13
+  - first:
+      213: 6943467927054250369
+    second: ROUMER-run_14
+  - first:
+      213: -5755356362490247915
+    second: ROUMER-run_15
+  - first:
+      213: 515323603395632842
+    second: ROUMER-run_16
+  - first:
+      213: 6291758912101225063
+    second: ROUMER-run_17
+  - first:
+      213: 5084993429165126615
+    second: ROUMER-run_18
+  - first:
+      213: -8867722559998502165
+    second: ROUMER-run_19
+  - first:
+      213: 8984421219964532347
+    second: ROUMER-run_20
+  - first:
+      213: 9211949529061102146
+    second: ROUMER-run_21
+  - first:
+      213: 4032983645412008225
+    second: ROUMER-run_22
+  - first:
+      213: 9102391164752374048
+    second: ROUMER-run_23
+  - first:
+      213: -7133804376733287864
+    second: ROUMER-run_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ROUMER-run_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1045
+        width: 176
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a6a6140682d3a00800000000000000
+      internalID: 737790307838093938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1050
+        width: 174
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb954c141d085de80800000000000000
+      internalID: -8154469914044507717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1044
+        width: 174
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dcdcbb8f0fefda0800000000000000
+      internalID: -5909020709970129640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1044
+        width: 171
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d7b02c6e96c2080800000000000000
+      internalID: -9210870698060579569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_4
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1051
+        width: 176
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a46e28a62c443750800000000000000
+      internalID: 6283731109002765472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 788
+        width: 181
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80ec651163eea840800000000000000
+      internalID: 5237373422789255308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 788
+        width: 158
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839722a36f02e5350800000000000000
+      internalID: 6007275194868201784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_7
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 794
+        width: 161
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb7c49cd12f78ec0800000000000000
+      internalID: -3564614370295252034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 788
+        width: 157
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0290ca1091500b0800000000000000
+      internalID: -5763172653178740517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_9
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 789
+        width: 178
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f660bad43f97fc60800000000000000
+      internalID: 7851919524699858679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 536
+        width: 175
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e055ecd1506bda0800000000000000
+      internalID: -5929546233812808081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 531
+        width: 174
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d8e1453b3761860800000000000000
+      internalID: 7500309443479768439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 535
+        width: 174
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42707dcb37b1134c0800000000000000
+      internalID: -4309633184513456348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_13
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 532
+        width: 157
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e955d022fdc4790800000000000000
+      internalID: -7544409938406826441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_14
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 533
+        width: 156
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181f265aa472c5060800000000000000
+      internalID: 6943467927054250369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 282
+        width: 161
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5150cf9a1edd020b0800000000000000
+      internalID: -5755356362490247915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 276
+        width: 157
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace55c4461cc62700800000000000000
+      internalID: 515323603395632842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_17
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 277
+        width: 177
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76211383561d05750800000000000000
+      internalID: 6291758912101225063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_18
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 280
+        width: 174
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d335961596819640800000000000000
+      internalID: 5084993429165126615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_19
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 276
+        width: 177
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea529c90558fe480800000000000000
+      internalID: -8867722559998502165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 20
+        width: 156
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76b7708f731fac70800000000000000
+      internalID: 8984421219964532347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 26
+        width: 160
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24293882a4b67df70800000000000000
+      internalID: 9211949529061102146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_22
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 20
+        width: 157
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1212eb1024908f730800000000000000
+      internalID: 4032983645412008225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_23
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 21
+        width: 178
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02928bda980325e70800000000000000
+      internalID: 9102391164752374048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROUMER-run_24
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 24
+        width: 174
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a7fa347b2affc90800000000000000
+      internalID: -7133804376733287864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ROUMER-run_0: 737790307838093938
+      ROUMER-run_1: -8154469914044507717
+      ROUMER-run_10: -5929546233812808081
+      ROUMER-run_11: 7500309443479768439
+      ROUMER-run_12: -4309633184513456348
+      ROUMER-run_13: -7544409938406826441
+      ROUMER-run_14: 6943467927054250369
+      ROUMER-run_15: -5755356362490247915
+      ROUMER-run_16: 515323603395632842
+      ROUMER-run_17: 6291758912101225063
+      ROUMER-run_18: 5084993429165126615
+      ROUMER-run_19: -8867722559998502165
+      ROUMER-run_2: -5909020709970129640
+      ROUMER-run_20: 8984421219964532347
+      ROUMER-run_21: 9211949529061102146
+      ROUMER-run_22: 4032983645412008225
+      ROUMER-run_23: 9102391164752374048
+      ROUMER-run_24: -7133804376733287864
+      ROUMER-run_3: -9210870698060579569
+      ROUMER-run_4: 6283731109002765472
+      ROUMER-run_5: 5237373422789255308
+      ROUMER-run_6: 6007275194868201784
+      ROUMER-run_7: -3564614370295252034
+      ROUMER-run_8: -5763172653178740517
+      ROUMER-run_9: 7851919524699858679
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,8 +3,6 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
-
-
 public class AimLaser : MonoBehaviour
 {
     private LineRenderer laserLine; 
@@ -12,6 +10,9 @@ public class AimLaser : MonoBehaviour
 
     private Vector3 mouseScreen;
     private Vector3 mouseWorld;
+
+    [SerializeField]
+    private float cooldown = 1f;
 
     void Start()
     {
@@ -34,7 +35,7 @@ public class AimLaser : MonoBehaviour
             laserLine.startColor = Color.black;
             laserLine.endColor = Color.black;
 
-            Invoke(nameof(RestoreLaserColor), 1f);
+            Invoke(nameof(RestoreLaserColor), cooldown);
         }
 
     }
