@@ -85,10 +85,11 @@ public class HeroState : MonoBehaviour
         OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
     }
 
-    private void Die()
+    public void Die()
     {
         IsDead = true;
         MoveInput = Vector2.zero;
+        
         OnMoveInputChanged?.Invoke(Vector2.zero);
         OnDeath?.Invoke();
     }

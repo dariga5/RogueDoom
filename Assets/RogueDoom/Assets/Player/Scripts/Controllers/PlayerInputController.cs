@@ -33,5 +33,10 @@ public class PlayerInputController : MonoBehaviour
         {
             _heroState.Fire();
         }
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            _heroState.Die();
+        }
     }
 }
